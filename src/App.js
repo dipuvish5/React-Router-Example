@@ -1,11 +1,20 @@
 import React from "react";
+import Menu from "./Menu";
+import withAuthentication from "./withAuthentication";
+
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Home</h1>
-      </div>
+      <>
+        <Menu />
+
+        <div>
+          <h1>Home</h1>
+        </div>
+      </>
     );
   }
 }
-export default App;
+
+const WrappedComponent = withAuthentication(App);
+export default WrappedComponent;
