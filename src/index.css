@@ -6,3 +6,16 @@ body {
 .active {
   color: red;
 }
+ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+li {
+  float: left;
+  margin-left: 20px;
+}
+
+.padding30 {
+  padding-top: 30px;
+}
