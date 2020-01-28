@@ -11,7 +11,7 @@ class Contact extends React.Component {
     return (
       <>
         <Menu />
-        <div>
+        <div className="padding30">
           <h1>Contact</h1>
           <form>
             <input placeholder="name" type="name" />

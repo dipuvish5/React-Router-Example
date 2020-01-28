@@ -11,7 +11,7 @@ class Users extends React.Component {
     return (
       <>
         <Menu />
-        <div>
+        <div className="padding30">
           <h1>Users</h1>
           <strong>select a user</strong>
           <ul>

@@ -8,7 +8,7 @@ class App extends React.Component {
       <>
         <Menu />
 
-        <div>
+        <div className="padding30">
           <h1>Home</h1>
         </div>
       </>

@@ -16,7 +16,9 @@ class Login extends React.Component {
     return (
       <>
         <Menu />
-        <button onClick={this.loginUser}>Login</button>;
+        <div className="padding30">
+          Click here to <button onClick={this.loginUser}>Login</button>
+        </div>
       </>
     );
   }
