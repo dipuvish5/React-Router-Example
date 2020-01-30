@@ -13,7 +13,8 @@ ul {
 
 li {
   float: left;
-  margin-left: 20px;
+  padding: 15px 25px 15px 25px;
+  border: 1px solid #ccc;
 }
 
 .padding30 {
